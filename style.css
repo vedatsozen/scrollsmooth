@@ -1,0 +1,133 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: auto 0;
+    margin-bottom: 20px;
+    background-color: bisque;
+   
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#menu {
+    height:150px;
+    width: 100%;
+    padding:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+#menu > ul {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: fit-content;
+    margin: auto;
+    gap: 15px;
+    padding: 15px;
+    box-sizing: content-box !important;
+}
+
+#menu > ul > li > a {
+    font-size:30px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: maroon;
+    display: block;
+    padding: 10px;
+}
+
+#menu > ul > li > a:hover {
+
+    display: block;
+    padding: 10px;
+    background-color: maroon;
+    color: white;
+}
+
+#menu > ul > li > a:active {
+    transform: scale(0.7);
+}
+
+#divs {
+    margin: auto;
+    display: flex;
+    height: fit-content;
+    width:80%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+#divs > div {
+    height:600px;
+    width: 100%;
+    color: white;
+    font-size:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid maroon;
+
+}
+
+h1 {
+    font-size:50px;
+    color: white;
+}
+
+#two {
+    padding:25px !important;
+    background-color: maroon;
+    color: white !important;
+}
+
+button#gototop {
+    position: fixed;
+    bottom:10px;
+    right:10px;
+    display: none;
+    padding: 5px 7px;
+    background-color:maroon;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+}
+
+button#gototop:active {
+transform: scale(0.8);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 20px black;
+}
+
+p {
+    color: white;
+    text-align: justify;
+    box-sizing: border-box;
+    font-size: 14px;
+}
